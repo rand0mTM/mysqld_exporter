@@ -7,7 +7,7 @@ go:
 - 1.10.x
 
 env:
-- MYSQL_IMAGE=mariadb/10.1
+- MYSQL_IMAGE=library/mariadb:10.1
 
 services:
 - docker
